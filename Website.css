@@ -149,8 +149,6 @@ section {
 .social-icons {
     display: inline-flex;
     justify-content: center;
-    margin-top: 5rem;
-    margin-left: -42rem;
     
 }
 .social-icons a {
