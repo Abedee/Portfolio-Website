@@ -21,7 +21,7 @@ To view my portfolio, simply open the index.html file in your browser or visit m
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   [git clone https://github.com/your-username/portfolio.git](https://github.com/Abedee/Portfolio-Website.git)
    ```
 
 2. Open `index.html` in your preferred browser.
