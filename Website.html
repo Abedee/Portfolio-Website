@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Website.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">
+        <span>._.</span>
+      </a>
+            
+          
+      <i class="bx bx-menu" id="menu-icon"></i>
+    
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact">
+        <button class="gradient-btn">Contact Me</button>
+      </a>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+          <h1>Hi, I'm <span>Abdullah</span> </h1>
+          <p>An Electrical Engineering student at IIEST Shibpur with a strong interest in combining engineering with modern tech fields like machine learning. Currently, I’m also diving into web development and sharpening my skills in data structures and algorithms.</p>
+      </div> 
+      <div class="social-icons"> 
+          <a href="https://github.com/Abedee" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-github"></i> </a>
+          <a href="https://www.linkedin.com/in/abdullah-n-065915245/" target="_blank" rel="noopener noreferrer" >
+            <i class="bx bxl-linkedin-square"></i> </a>
+          <a href="https://www.instagram.com/abeedeeeeeee/" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-instagram-alt"></i> </a>
+          <a href="https://x.com/abdul_najam54 "target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-twitter"></i> </a>
+      </div>
+        
+      <div class="home-img">
+        <img src="Image.jpeg" alt="">
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Image.jpeg" alt="">
+      </div>
+      <div class="about-content">
+        <h3>About<span> Me</span></h3>
+        <p>I’m Abdullah Najam, a B.Tech student in Electrical Engineering at IIEST Shibpur, with a passion for blending my field with machine learning and web development. I’m constantly exploring new ways to innovate and grow in tech.</p>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="project1.png" alt="">
+          <h3><span>Spotify Data Analysis</span></h3>
+          <p>Analyzed Spotify music data to uncover trends in artist popularity, genre distribution, and song characteristics. Used Excel for data cleaning, MySQL for querying, and Power BI for creating interactive visualizations. Gained actionable insights into music trends, artist performance, and audience preferences.</p>
+          <a href="https://github.com/Abedee/Spotify-Data-Analysis" target="_blank" rel="noopener noreferrer">
+            <div class="btn">Review Project</div>
+          </a>
+        </div>
+        <div class="project-card">
+          <img src="project2.png" alt="">
+          <h3><span>Intruder Alert System</span> </h3>
+          <p>Developed a cost-effective security system using Arduino Uno, PIR sensors, and a GSM module to detect unauthorized entry and send real-time SMS alerts. The system features remote monitoring capabilities and is designed for potential expansion with additional sensors, enhancing home security effectively and affordably.</p>
+          <a href="https://github.com/Abedee/Intruder-Alert-System-Using-Motion-Sensors-and-GSM-Module" target="_blank" rel="noopener noreferrer">
+            <div class="btn">Review Project</div>
+          </a>
+        </div>
+        <div class="project-card">
+          <img src="project3.png" alt="">
+          <h3><span> Eye Controlled Mouse</span>
+          </h3>
+          <p>The Eye Controlled Mouse project lets users control their mouse with eye movements using OpenCV, MediaPipe, and PyAutoGUI. It tracks eye positions to move the cursor and detects blinks for clicks, offering a hands-free, accessible computing solution.</p>
+          <a href="https://github.com/Abedee/Eye-Controlled-Mouse" target="_blank" rel="noopener noreferrer">
+            <div class="btn">Review Project</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h4 class="heading">Contact<span> Me</span></h4>
+      <form action="https://formspree.io/f/mqakbklp"
+      method="POST">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text"
+            placeholder="Full Name" name="text">
+            <input type="Email"
+            placeholder="Email" name="Email">
+          </div>
+          <div class="input-box">
+            <input type="number"
+            placeholder="Phone Number" name="number">
+            <input type="text"
+            placeholder="Subject" name="text">
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea name="" id="="
+          placeholder="Your Message" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" class="btn" name="submit">
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        © Abdullah | All Rights Reserved
+      </p>
+    </footer>
+</header>
+    
+
+    <script src="Website.js"></script>
+  </body>
+</html>
